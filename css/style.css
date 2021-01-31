@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    display: flex;
+    justify-content: center;   
+    border: 1px;
+    text-align: center;    
+}
+.annex-google {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+img {
+    padding-top: 50%;      
+}
+img:hover {
+    border: 3px;
+    text-align: center;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    background-color: rgb(185, 241, 241);                      
+}
+a {
+    text-decoration: none;
+    color: black;  
+}
+
