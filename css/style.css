@@ -19,7 +19,6 @@
 .annex:hover {
     border: 50px;
     text-align: center;   
-    transition: .2s ease-in-out;
     background-color: rgb(185, 241, 241);
 }
 .annex-google {
