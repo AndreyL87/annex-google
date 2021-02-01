@@ -5,25 +5,31 @@
 .body {
     display: flex;
     justify-content: center;   
-    border: 1px;
-    text-align: center;    
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+    height: 700px;    
+}
+.annex {    
+    display: flex;
+    justify-content: center;    
+    margin: 10px;
+    padding: 5px;   
+}
+.annex:hover {
+    border: 50px;
+    text-align: center;   
+    transition: .2s ease-in-out;
+    background-color: rgb(185, 241, 241);
 }
 .annex-google {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-img {
-    padding-top: 50%;      
-}
-img:hover {
-    border: 3px;
-    text-align: center;
-    padding: 10px;
-    transition: .2s ease-in-out;
-    background-color: rgb(185, 241, 241);                      
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
 }
 a {
     text-decoration: none;
-    color: black;  
+    color: black; 
 }
+
 
